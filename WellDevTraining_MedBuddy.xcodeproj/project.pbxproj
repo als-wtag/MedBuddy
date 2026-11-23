@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		747E1C5A30B4053B00ACF455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 747E1C3B30B4053800ACF455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 747E1C4230B4053800ACF455;
+			remoteInfo = WellDevTraining_MedBuddy;
+		};
+		747E1C6430B4053B00ACF455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 747E1C3B30B4053800ACF455 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 747E1C4230B4053800ACF455;
+			remoteInfo = WellDevTraining_MedBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		747E1C4330B4053800ACF455 /* WellDevTraining_MedBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellDevTraining_MedBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		747E1C5930B4053B00ACF455 /* WellDevTraining_MedBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellDevTraining_MedBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		747E1C6330B4053B00ACF455 /* WellDevTraining_MedBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellDevTraining_MedBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		747E1C6B30B4053C00ACF455 /* Exceptions for "WellDevTraining_MedBuddy" folder in "WellDevTraining_MedBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 747E1C4230B4053800ACF455 /* WellDevTraining_MedBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		747E1C4530B4053800ACF455 /* WellDevTraining_MedBuddy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				747E1C6B30B4053C00ACF455 /* Exceptions for "WellDevTraining_MedBuddy" folder in "WellDevTraining_MedBuddy" target */,
+			);
+			path = WellDevTraining_MedBuddy;
+			sourceTree = "<group>";
+		};
+		747E1C5C30B4053B00ACF455 /* WellDevTraining_MedBuddyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WellDevTraining_MedBuddyTests;
+			sourceTree = "<group>";
+		};
+		747E1C6630B4053B00ACF455 /* WellDevTraining_MedBuddyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WellDevTraining_MedBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		747E1C4030B4053800ACF455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E1C5630B4053B00ACF455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E1C6030B4053B00ACF455 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		747E1C3A30B4053800ACF455 = {
+			isa = PBXGroup;
+			children = (
+				747E1C4530B4053800ACF455 /* WellDevTraining_MedBuddy */,
+				747E1C5C30B4053B00ACF455 /* WellDevTraining_MedBuddyTests */,
+				747E1C6630B4053B00ACF455 /* WellDevTraining_MedBuddyUITests */,
+				747E1C4430B4053800ACF455 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		747E1C4430B4053800ACF455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				747E1C4330B4053800ACF455 /* WellDevTraining_MedBuddy.app */,
+				747E1C5930B4053B00ACF455 /* WellDevTraining_MedBuddyTests.xctest */,
+				747E1C6330B4053B00ACF455 /* WellDevTraining_MedBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		747E1C4230B4053800ACF455 /* WellDevTraining_MedBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747E1C6C30B4053C00ACF455 /* Build configuration list for PBXNativeTarget "WellDevTraining_MedBuddy" */;
+			buildPhases = (
+				747E1C3F30B4053800ACF455 /* Sources */,
+				747E1C4030B4053800ACF455 /* Frameworks */,
+				747E1C4130B4053800ACF455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				747E1C4530B4053800ACF455 /* WellDevTraining_MedBuddy */,
+			);
+			name = WellDevTraining_MedBuddy;
+			packageProductDependencies = (
+			);
+			productName = WellDevTraining_MedBuddy;
+			productReference = 747E1C4330B4053800ACF455 /* WellDevTraining_MedBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		747E1C5830B4053B00ACF455 /* WellDevTraining_MedBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747E1C7130B4053C00ACF455 /* Build configuration list for PBXNativeTarget "WellDevTraining_MedBuddyTests" */;
+			buildPhases = (
+				747E1C5530B4053B00ACF455 /* Sources */,
+				747E1C5630B4053B00ACF455 /* Frameworks */,
+				747E1C5730B4053B00ACF455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747E1C5B30B4053B00ACF455 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				747E1C5C30B4053B00ACF455 /* WellDevTraining_MedBuddyTests */,
+			);
+			name = WellDevTraining_MedBuddyTests;
+			packageProductDependencies = (
+			);
+			productName = WellDevTraining_MedBuddyTests;
+			productReference = 747E1C5930B4053B00ACF455 /* WellDevTraining_MedBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		747E1C6230B4053B00ACF455 /* WellDevTraining_MedBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747E1C7430B4053C00ACF455 /* Build configuration list for PBXNativeTarget "WellDevTraining_MedBuddyUITests" */;
+			buildPhases = (
+				747E1C5F30B4053B00ACF455 /* Sources */,
+				747E1C6030B4053B00ACF455 /* Frameworks */,
+				747E1C6130B4053B00ACF455 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747E1C6530B4053B00ACF455 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				747E1C6630B4053B00ACF455 /* WellDevTraining_MedBuddyUITests */,
+			);
+			name = WellDevTraining_MedBuddyUITests;
+			packageProductDependencies = (
+			);
+			productName = WellDevTraining_MedBuddyUITests;
+			productReference = 747E1C6330B4053B00ACF455 /* WellDevTraining_MedBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		747E1C3B30B4053800ACF455 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					747E1C4230B4053800ACF455 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					747E1C5830B4053B00ACF455 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 747E1C4230B4053800ACF455;
+					};
+					747E1C6230B4053B00ACF455 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 747E1C4230B4053800ACF455;
+					};
+				};
+			};
+			buildConfigurationList = 747E1C3E30B4053800ACF455 /* Build configuration list for PBXProject "WellDevTraining_MedBuddy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 747E1C3A30B4053800ACF455;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 747E1C4430B4053800ACF455 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				747E1C4230B4053800ACF455 /* WellDevTraining_MedBuddy */,
+				747E1C5830B4053B00ACF455 /* WellDevTraining_MedBuddyTests */,
+				747E1C6230B4053B00ACF455 /* WellDevTraining_MedBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		747E1C4130B4053800ACF455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E1C5730B4053B00ACF455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E1C6130B4053B00ACF455 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		747E1C3F30B4053800ACF455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E1C5530B4053B00ACF455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747E1C5F30B4053B00ACF455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		747E1C5B30B4053B00ACF455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 747E1C4230B4053800ACF455 /* WellDevTraining_MedBuddy */;
+			targetProxy = 747E1C5A30B4053B00ACF455 /* PBXContainerItemProxy */;
+		};
+		747E1C6530B4053B00ACF455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 747E1C4230B4053800ACF455 /* WellDevTraining_MedBuddy */;
+			targetProxy = 747E1C6430B4053B00ACF455 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		747E1C6D30B4053C00ACF455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellDevTraining_MedBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.WellDevTraining-LearningSwift.WellDevTraining-MedBuddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		747E1C6E30B4053C00ACF455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellDevTraining_MedBuddy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.WellDevTraining-LearningSwift.WellDevTraining-MedBuddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		747E1C6F30B4053C00ACF455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		747E1C7030B4053C00ACF455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		747E1C7230B4053C00ACF455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.WellDevTraining-LearningSwift.WellDevTraining-MedBuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellDevTraining_MedBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellDevTraining_MedBuddy";
+			};
+			name = Debug;
+		};
+		747E1C7330B4053C00ACF455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.WellDevTraining-LearningSwift.WellDevTraining-MedBuddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellDevTraining_MedBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellDevTraining_MedBuddy";
+			};
+			name = Release;
+		};
+		747E1C7530B4053C00ACF455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.WellDevTraining-LearningSwift.WellDevTraining-MedBuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WellDevTraining_MedBuddy;
+			};
+			name = Debug;
+		};
+		747E1C7630B4053C00ACF455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P84NV82A7N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.WellDevTraining-LearningSwift.WellDevTraining-MedBuddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WellDevTraining_MedBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		747E1C3E30B4053800ACF455 /* Build configuration list for PBXProject "WellDevTraining_MedBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747E1C6F30B4053C00ACF455 /* Debug */,
+				747E1C7030B4053C00ACF455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747E1C6C30B4053C00ACF455 /* Build configuration list for PBXNativeTarget "WellDevTraining_MedBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747E1C6D30B4053C00ACF455 /* Debug */,
+				747E1C6E30B4053C00ACF455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747E1C7130B4053C00ACF455 /* Build configuration list for PBXNativeTarget "WellDevTraining_MedBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747E1C7230B4053C00ACF455 /* Debug */,
+				747E1C7330B4053C00ACF455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747E1C7430B4053C00ACF455 /* Build configuration list for PBXNativeTarget "WellDevTraining_MedBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747E1C7530B4053C00ACF455 /* Debug */,
+				747E1C7630B4053C00ACF455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 747E1C3B30B4053800ACF455 /* Project object */;
+}
